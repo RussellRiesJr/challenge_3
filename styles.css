@@ -3,3 +3,21 @@
 
 /* When the user scrolls now to read the rest of the content, the navigation bar should remain at the top of the page,
 always visible, no matter how far down the user scrolls. */
+
+
+.navStyle {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: orangered;
+}
+
+.listStyle li{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.space {
+  margin-top: 80px;
+}
